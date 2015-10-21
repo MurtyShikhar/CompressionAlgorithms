@@ -1,9 +1,0 @@
-#!/bin/bash
-if [ ! -d "bin" ]; then
-	mkdir bin
-fi
-javac -d src src/SuffixSort.java
-javac -d src src/CircularSuffixArray.java
-javac -d src src/HuffMan.java
-javac -d src src/BurrowsWheeler.java
-javac -d src src/MoveToFront.java
